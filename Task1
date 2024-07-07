@@ -1,0 +1,51 @@
+package JavaDeveloperInternshipTask;
+
+import java.util.Scanner;
+
+public class SimpleCalculator {
+
+	public static void main(String[] args) {
+		System.out.println("Calculator");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter first number ");
+		double num1 = sc.nextDouble();
+		
+		System.out.println("Enter second number ");
+		double num2 = sc.nextDouble();
+		
+		System.out.println("Choose the operation");
+		System.out.println("1 - Addition \n 2 - Subtraction \n 3 - Multiplication \n 4 - Division \n");
+		
+		int operator = sc.nextInt();
+		double result = 0;
+		
+		switch (operator)
+		{
+		case 1:
+			result = num1 + num2;
+			break;
+			
+		case 2:
+			result = num1 - num2;
+			break;
+			
+		case 3:
+			result = num1 * num2;
+			break;
+			
+		case 4:
+			result = num1 / num2;
+			break;
+			
+		default:
+			System.out.println("Invalid user operator");
+		}
+		System.out.println("Result is "+result);
+
+		}
+
+	}
+
+
