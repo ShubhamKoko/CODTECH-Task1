@@ -10,6 +10,7 @@
 ## Overview on the Project
 
 ### Project: Simple Calculator
+![Screenshot 2024-07-07 231825](https://github.com/ShubhamKoko/CODTECH-Task1/assets/84766737/37a10647-e06f-4fd2-90be-1f5ea1b77a1c)
 
 ### Objectiove
 A simple calculator Java program performs basic arithmetic operations such as addition, subtraction, multiplication, and division. It typically consists of a user interface to input numbers and select the desired operation, along with logic to perform the calculations and display the result. Here's a brief description of each component:
